@@ -3,6 +3,8 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
+      textLogo: "Boolean",
+      booleanClass: "Classe #110",
       dischi: [],
     };
   },

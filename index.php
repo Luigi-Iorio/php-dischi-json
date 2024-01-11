@@ -18,7 +18,15 @@
 <body>
     <div id="app">
         <!-- header -->
-        <header></header>
+        <header>
+            <!-- logo -->
+            <a href="#">{{ textLogo }}</a>
+            <!-- /logo -->
+
+            <!-- classe -->
+            <h3>{{ booleanClass }}</h3>
+            <!-- /classe -->
+        </header>
         <!-- /header -->
 
         <!-- main -->

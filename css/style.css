@@ -8,4 +8,27 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(23, 23, 23);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+/* HEADER */
+header {
+  padding: 50px;
+  background-color: rgb(72, 72, 72);
+  color: rgb(23, 23, 23);
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  font-size: 32px;
+  font-weight: bold;
 }
