@@ -6,7 +6,7 @@ createApp({
       textLogo: "Boolean",
       booleanClass: "Classe #110",
       albumText: "I 6 migliori album del 2023",
-      footerText: "Made by classe #110",
+      footerText: "Made by Luigi | classe #110",
       dischi: [],
       numAlbumAttivo: 0,
       albumAttivo: [],
@@ -14,6 +14,7 @@ createApp({
     };
   },
   methods: {
+    // chiamata api per ottenre le info di tutti gli album
     getElencoAlbum() {
       axios.get("server.php").then((response) => {
         this.dischi = response.data;
@@ -21,7 +22,7 @@ createApp({
     },
     // visualizzazione album selezionato
     albumSelezionato(index) {
-      this.numAlbumAttivo = index;
+      this.numAlbumAttivo = index; //settare numAlbumAttivo = indice della card cliccata
       this.visualizzazioneAlbumAttivo = true;
 
       //chiamata api per ottenere le info dell'album selezionato
