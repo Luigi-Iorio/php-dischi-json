@@ -6,6 +6,7 @@ createApp({
       textLogo: "Boolean",
       booleanClass: "Classe #110",
       albumText: "I 6 migliori album del 2023",
+      footerText: "Made by classe #110",
       dischi: [],
     };
   },

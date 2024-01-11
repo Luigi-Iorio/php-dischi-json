@@ -46,7 +46,9 @@
         <!-- /main -->
 
         <!-- footer -->
-        <footer></footer>
+        <footer>
+            <h4>{{ footerText }}</h4>
+        </footer>
         <!-- /footer -->
     </div>
     <!-- vue -->
