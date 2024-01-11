@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "La Divina Commedia",
+        "artista": "Tedua",
+        "anno": 2023,
+        "img": "img/la_divina_commedia.webp"
+    },
+    {
+        "nome": "Lux Eterna Beach",
+        "artista": "Colapesce Dimartino",
+        "anno": 2023,
+        "img": "img/lux-eterna-beach.webp"
+    },
+    {
+        "nome": "Il coraggio dei bambini",
+        "artista": "Geolier",
+        "anno": 2023,
+        "img": "img/il-coraggio-dei-bambini.webp"
+    },
+    {
+        "nome": "L’amore",
+        "artista": "Madame",
+        "anno": 2023,
+        "img": "img/lamore.webp"
+    },
+    {
+        "nome": "Chiamami quando la magia finisce",
+        "artista": "Tropico",
+        "anno": 2023,
+        "img": "img/chiamami-magia.webp"
+    },
+    {
+        "nome": "Il grande fulmine",
+        "artista": "Thru Collected",
+        "anno": 2023,
+        "img": "img/il-grande-fulmine.webp"
+    }
+]
