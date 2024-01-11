@@ -3,36 +3,48 @@
         "nome": "La Divina Commedia",
         "artista": "Tedua",
         "anno": 2023,
-        "img": "img/la_divina_commedia.webp"
+        "img": "img/la_divina_commedia.webp",
+        "durata": "16 brani | 49 min e 39 sec",
+        "imgartista": "img/tedua.jpg"
     },
     {
         "nome": "Lux Eterna Beach",
         "artista": "Colapesce Dimartino",
         "anno": 2023,
-        "img": "img/lux-eterna-beach.webp"
+        "img": "img/lux-eterna-beach.webp",
+        "durata": "11 brani | 44 min e 22 sec",
+        "imgartista": "img/colapesce-dimartino.jpg"
     },
     {
         "nome": "Il coraggio dei bambini",
         "artista": "Geolier",
         "anno": 2023,
-        "img": "img/il-coraggio-dei-bambini.webp"
+        "img": "img/il-coraggio-dei-bambini.webp",
+        "durata": "18 brani | 50 min e 33 sec",
+        "imgartista": "img/geolier.jpg"
     },
     {
         "nome": "L’amore",
         "artista": "Madame",
         "anno": 2023,
-        "img": "img/lamore.webp"
+        "img": "img/lamore.webp",
+        "durata": "15 brani | 50 min e 2 sec",
+        "imgartista": "img/madame.jpg"
     },
     {
         "nome": "Chiamami quando la magia finisce",
         "artista": "Tropico",
         "anno": 2023,
-        "img": "img/chiamami-magia.webp"
+        "img": "img/chiamami-magia.webp",
+        "durata": "15 brani | 54 min e 45 sec",
+        "imgartista": "img/tropico.jpg"
     },
     {
         "nome": "Il grande fulmine",
         "artista": "Thru Collected",
         "anno": 2023,
-        "img": "img/il-grande-fulmine.webp"
+        "img": "img/il-grande-fulmine.webp",
+        "durata": "30 brani | 1 ora e 20 min",
+        "imgartista": "img/thru-collected.jpg"
     }
 ]
