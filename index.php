@@ -35,7 +35,9 @@
             <ul>
                 <li v-for="disco in dischi">
                     <div class="card">
-                        <div class="img-debug"></div>
+                        <div class="img">
+                            <img :src="disco.img" :alt="disco.nome">
+                        </div>
                         <h4>{{disco.nome}}</h4>
                         <p>{{disco.artista}}</p>
                         <p>{{disco.anno}}</p>
