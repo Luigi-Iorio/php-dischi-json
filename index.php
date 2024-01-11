@@ -32,8 +32,9 @@
         <!-- main -->
         <main>
             <h1>{{ albumText }}</h1>
+            <!-- lista album -->
             <ul>
-                <li v-for="disco in dischi">
+                <li v-for="(disco, index) in dischi" @click="albumSelezionato(index)">
                     <div class="card">
                         <div class="img">
                             <img :src="disco.img" :alt="disco.nome">
@@ -44,6 +45,30 @@
                     </div>
                 </li>
             </ul>
+            <!-- /lista album -->
+
+            <!-- album selezionato -->
+            <div class="card-esplosa" :class="visualizzazioneAlbumAttivo === true ? 'd-block' : 'd-none'">
+                <div class="cont">
+                    <div class="card">
+                        <div class="img">
+                            <img :src="albumAttivo.img" :alt="albumAttivo.nome">
+                        </div>
+                        <h4>{{albumAttivo.nome}}</h4>
+                        <p>{{albumAttivo.artista}}</p>
+                        <p>{{albumAttivo.anno}}</p>
+                        <p>{{albumAttivo.durata}}</p>
+                        <div class="artista">
+                            <div class="img-artista">
+                                <img :src="albumAttivo.imgartista" :alt="albumAttivo.artista">
+                            </div>
+                            <p>{{albumAttivo.artista}}</p>
+                        </div>
+                        <button @click="chiusuraCard()">Chiudi Album</button>
+                    </div>
+                </div>
+            </div>
+            <!-- /album selezionato -->
         </main>
         <!-- /main -->
 

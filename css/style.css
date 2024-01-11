@@ -21,6 +21,15 @@ li {
   list-style-type: none;
 }
 
+/* UTILITIES */
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
 /* HEADER */
 header {
   padding: 50px;
@@ -40,6 +49,7 @@ header a {
 /* MAIN */
 main {
   padding: 50px;
+  position: relative;
 }
 
 main h1 {
@@ -69,6 +79,7 @@ main ul li .card {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  cursor: pointer;
 }
 
 main .card .img {
@@ -82,6 +93,70 @@ main .card .img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+main .card-esplosa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.876);
+}
+
+main .card-esplosa .cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .card-esplosa .cont .card {
+  padding-bottom: 20px;
+  width: 30%;
+  background-color: rgb(72, 72, 72);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+main .card-esplosa .cont .card .artista {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main .card-esplosa .cont .card .artista .img-artista {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+main .card-esplosa .cont .card .artista .img-artista img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+main .card-esplosa .cont .card button {
+  width: 80%;
+  border: none;
+  border-radius: 15px;
+  padding: 20px 0;
+  background-color: rgb(23, 23, 23);
+  color: rgb(169, 169, 169);
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+main .card-esplosa .cont .card button:hover {
+  background-color: rgb(169, 169, 169);
+  color: rgb(23, 23, 23);
 }
 
 /* FOOTER */
