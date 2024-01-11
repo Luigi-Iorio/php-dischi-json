@@ -91,3 +91,26 @@ footer {
   color: rgb(23, 23, 23);
   text-align: center;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 992px) {
+  main ul li {
+    margin: 0px 20px;
+    width: calc(100% / 2 - 40px);
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 30px;
+  }
+
+  main ul li {
+    width: 100%;
+  }
+
+  main .card .img {
+    height: 200px;
+  }
+}
