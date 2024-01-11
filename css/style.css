@@ -17,6 +17,10 @@ a {
   color: currentColor;
 }
 
+li {
+  list-style-type: none;
+}
+
 /* HEADER */
 header {
   padding: 50px;
@@ -31,4 +35,45 @@ header {
 header a {
   font-size: 32px;
   font-weight: bold;
+}
+
+/* MAIN */
+main {
+  padding: 50px;
+}
+
+main h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgb(169, 169, 169);
+}
+
+main ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+main ul li {
+  margin: 0px 20px;
+  width: calc(100% / 3 - 40px);
+  margin-bottom: 20px;
+}
+
+main ul li .card {
+  padding: 20px;
+  background-color: rgb(72, 72, 72);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+main .card .img-debug {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(23, 23, 23);
+  border-radius: 20px;
 }

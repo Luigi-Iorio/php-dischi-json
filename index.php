@@ -30,7 +30,19 @@
         <!-- /header -->
 
         <!-- main -->
-        <main></main>
+        <main>
+            <h1>{{ albumText }}</h1>
+            <ul>
+                <li v-for="disco in dischi">
+                    <div class="card">
+                        <div class="img-debug"></div>
+                        <h4>{{disco.nome}}</h4>
+                        <p>{{disco.artista}}</p>
+                        <p>{{disco.anno}}</p>
+                    </div>
+                </li>
+            </ul>
+        </main>
         <!-- /main -->
 
         <!-- footer -->
