@@ -9,7 +9,7 @@ createApp({
       footerText: "Made by Luigi | classe #110",
       dischi: [],
       numAlbumAttivo: 0,
-      albumAttivo: [],
+      albumAttivo: {},
       visualizzazioneAlbumAttivo: false,
     };
   },
@@ -22,15 +22,16 @@ createApp({
     },
     // visualizzazione album selezionato
     albumSelezionato(index) {
-      this.numAlbumAttivo = index; //settare numAlbumAttivo = indice della card cliccata
+      // variabile true si attiva la modale
       this.visualizzazioneAlbumAttivo = true;
 
       //chiamata api per ottenere le info dell'album selezionato
-      axios.get("server.php").then((response) => {
-        this.albumAttivo = response.data[index];
+      axios.get("server.php", { params: { index } }).then((response) => {
+        this.albumAttivo = response.data;
       });
     },
     chiusuraCard() {
+      // variabile false si disattiva la modale
       this.visualizzazioneAlbumAttivo = false;
     },
   },
