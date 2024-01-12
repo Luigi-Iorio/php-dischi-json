@@ -64,6 +64,18 @@
                             </div>
                             <p>{{albumAttivo.artista}}</p>
                         </div>
+                        <div class="brani">
+                            <div class="preferito" v-if="albumAttivo.brano !== ''">
+                                <p>Brano preferito: <span>{{ albumAttivo.brano }}</span></p>
+                            </div>
+                            <form v-if="albumAttivo.brano === ''" @submit.prevent="aggiuntaBranoPreferito(numAlbumAttivo)">
+                                <div class="inserimento">
+                                    <label for="brano">Inserisci il tuo brano preferito</label>
+                                    <input type="text" name="brano" id="brano" placeholder="canzone preferita" v-model="branoPreferito">
+                                </div>
+                                <button>+</button>
+                            </form>
+                        </div>
                         <button @click="chiusuraCard()">Chiudi Album</button>
                     </div>
                 </div>

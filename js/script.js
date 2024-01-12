@@ -10,6 +10,7 @@ createApp({
       dischi: [],
       numAlbumAttivo: 0,
       albumAttivo: {},
+      branoPreferito: "",
       visualizzazioneAlbumAttivo: false,
     };
   },
@@ -22,6 +23,7 @@ createApp({
     },
     // visualizzazione album selezionato
     albumSelezionato(index) {
+      this.numAlbumAttivo = index; //settare numAlbumAttivo = indice della card cliccata
       // variabile true si attiva la modale
       this.visualizzazioneAlbumAttivo = true;
 
@@ -33,6 +35,20 @@ createApp({
     chiusuraCard() {
       // variabile false si disattiva la modale
       this.visualizzazioneAlbumAttivo = false;
+    },
+    aggiuntaBranoPreferito(index) {
+      const data = {
+        create: 1,
+        branoInPost: this.branoPreferito,
+      };
+
+      axios
+        .post(`server.php?index=${index}`, data, {
+          headers: { "Content-type": "multipart/form-data" },
+        })
+        .then((response) => {
+          this.albumAttivo = response.data;
+        });
     },
   },
   created() {

@@ -5,7 +5,8 @@
         "anno": 2023,
         "img": "img/la_divina_commedia.webp",
         "durata": "16 brani | 49 min e 39 sec",
-        "imgartista": "img/tedua.jpg"
+        "imgartista": "img/tedua.jpg",
+        "brano": ""
     },
     {
         "nome": "Lux Eterna Beach",
@@ -13,7 +14,8 @@
         "anno": 2023,
         "img": "img/lux-eterna-beach.webp",
         "durata": "11 brani | 44 min e 22 sec",
-        "imgartista": "img/colapesce-dimartino.jpg"
+        "imgartista": "img/colapesce-dimartino.jpg",
+        "brano": ""
     },
     {
         "nome": "Il coraggio dei bambini",
@@ -21,7 +23,8 @@
         "anno": 2023,
         "img": "img/il-coraggio-dei-bambini.webp",
         "durata": "18 brani | 50 min e 33 sec",
-        "imgartista": "img/geolier.jpg"
+        "imgartista": "img/geolier.jpg",
+        "brano": ""
     },
     {
         "nome": "L’amore",
@@ -29,7 +32,8 @@
         "anno": 2023,
         "img": "img/lamore.webp",
         "durata": "15 brani | 50 min e 2 sec",
-        "imgartista": "img/madame.jpg"
+        "imgartista": "img/madame.jpg",
+        "brano": ""
     },
     {
         "nome": "Chiamami quando la magia finisce",
@@ -37,7 +41,8 @@
         "anno": 2023,
         "img": "img/chiamami-magia.webp",
         "durata": "15 brani | 54 min e 45 sec",
-        "imgartista": "img/tropico.jpg"
+        "imgartista": "img/tropico.jpg",
+        "brano": ""
     },
     {
         "nome": "Il grande fulmine",
@@ -45,6 +50,7 @@
         "anno": 2023,
         "img": "img/il-grande-fulmine.webp",
         "durata": "30 brani | 1 ora e 20 min",
-        "imgartista": "img/thru-collected.jpg"
+        "imgartista": "img/thru-collected.jpg",
+        "brano": ""
     }
 ]
