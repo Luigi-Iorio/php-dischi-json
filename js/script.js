@@ -49,6 +49,9 @@ createApp({
         .then((response) => {
           this.albumAttivo = response.data;
         });
+
+      // rendere l'input vuoto dopo l'invio del brano
+      this.branoPreferito = "";
     },
   },
   created() {
